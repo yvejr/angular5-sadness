@@ -13,5 +13,3 @@ const moduleDeclarations = [AppComponent];
     providers:    [...appRoutingProviders]
 })
 export class AppModule {}
-
-Install npm
