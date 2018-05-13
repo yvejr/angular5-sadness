@@ -6,7 +6,7 @@ import {APP_BASE_HREF} from "@angular/common";
 
 export const allAppComponents = [SplashComponent];
 
-export const routes: Routes = [
+export const appRoutes: Routes = [
     {path: "", component: SplashComponent}
 ];
 
@@ -15,4 +15,4 @@ export const appRoutingProviders: any[] = [
     UserService
 ];
 
-export const routing = RouterModule.forRoot(routes);
+export const routing = RouterModule.forRoot(appRoutes);
